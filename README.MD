@@ -21,7 +21,7 @@ After all that, all unnecessary files and folders are automatically deleted.
 ## USAGE
  - Place the BatchDDSGenerator folder into a folder that contains png or jpg pictures anywhere, including subfolders, and all their subfolders.
  - Pick and right-click a .ps1 file.
- - Run with powershell.
+ - Run with powershell. You may need admin privileges
  - Wait for the powershell window to close.
 
 Run "BatchDDSGeneratorSymlink.ps1" to save time and SSD life by not copying the textures.
