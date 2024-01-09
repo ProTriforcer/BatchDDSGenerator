@@ -31,4 +31,4 @@ OR
 Run "BatchDDSGeneratorCopy.ps1" to save some potential symlink related headache.
 
 
-Run "Delete symlinks and textures.ps1" to delete generated textures and symlinks pointing to them. This will not work without the "Texture database.csv" file!
+Run "Delete symlinks and textures.ps1" if you want to delete generated textures and symlinks pointing to them. This will not work without the "Texture database.csv" file!
