@@ -13,7 +13,7 @@ Now that all the "textures" are in the same folder, they can be sorted by opacit
 
 They are then converted to different DDS formats like in the original script, except imagemagick can only convert one file at a time, so instead texconv is launched once for each sorting folder (4 in total). Except it still can't properly convert to BC1_UNORM_SRGB, so opaque SRGB textures are converted to BC7_UNORM_SRGB instead. They will take a bit more space and memory(?), but you don't make DDS textures to save space.
 
-Now, you can't just move the DDS textures back to the mod folders, since only one file was generated for each unique texture, and powershell scripts aren't very nice for implementing fancy logic. Copying them all is slow. That's where symlinks come to the rescue again. The script creates symlinks where the DDS textures are supposed to be and makes them point to the files in the "DDS Textures (DO NOT DELETE)" folder. Yes, you should keep that folder.
+Now, you can't just move the DDS textures back to the mod folders, since only one file was generated for each unique texture, and powershell scripts aren't very nice for implementing fancy logic. Copying them all is slow (but you have the option, read usage). That's where symlinks come to the rescue again. The script creates symlinks where the DDS textures are supposed to be and makes them point to the files in the "DDS Textures (DO NOT DELETE)" folder. Yes, you should keep that folder.
 
 After all that, all unnecessary files and folders are automatically deleted.
 
