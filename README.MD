@@ -15,6 +15,8 @@ They are then converted to different DDS formats like in the original script, ex
 
 Now, you can't just move the DDS textures back to the mod folders, since only one file was generated for each unique texture, and powershell scripts aren't very nice for implementing fancy logic. Copying them all is slow. That's where symlinks come to the rescue again. The script creates symlinks where the DDS textures are supposed to be and makes them point to the files in the "DDS Textures (DO NOT DELETE)" folder. Yes, you should keep that folder.
 
+After all that, all unnecessary files and folders are automatically deleted.
+
 
 ## USAGE
  - Place the BatchDDSGenerator folder into a folder that contains png or jpg pictures anywhere, including subfolders, and all their subfolders.
