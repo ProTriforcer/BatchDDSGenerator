@@ -25,7 +25,10 @@ After all that, all unnecessary files and folders are automatically deleted.
  - Wait for the powershell window to close.
 
 Run "BatchDDSGeneratorSymlink.ps1" to save time and SSD life by not copying the textures.
+
 OR
+
 Run "BatchDDSGeneratorCopy.ps1" to save some potential symlink related headache.
+
 
 Run "Delete symlinks and textures.ps1" to delete generated textures and symlinks pointing to them. This will not work without the "Texture database.csv" file!
